@@ -33,7 +33,7 @@ int main () {
     
     printf( "N = " ) ;
     scanf( "%d",&n ) ;
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i <= n; i++) {
         printf( "Input [%d] :\n",i ) ;
         scanf( "%d",&num[i] ) ;
         if (num[i] < 0) { 
@@ -43,13 +43,13 @@ int main () {
     
     printf( "Index = " ) ;
     
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i <= n; i++) {
         printf("%d ", i);
     }
     
     printf("\nArray = ");
     
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i <= n; i++) {
         printf("%d ", num[i]);
     }
     
