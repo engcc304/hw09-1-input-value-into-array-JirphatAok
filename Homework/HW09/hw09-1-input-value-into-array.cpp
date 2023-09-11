@@ -25,3 +25,33 @@
         Array = 1 1 3 9 8 2 7 8
 
 */
+#include <stdio.h>
+int main () {
+    
+    int num[100] ;
+    int n ;
+    
+    printf( "N = " ) ;
+    scanf( "%d",&n ) ;
+    for (int i = 0; i <= n; i++) {
+        printf( "Input [%d] :\n",i ) ;
+        scanf( "%d",&num[i] ) ;
+        if (num[i] < 0) { 
+        break;
+        }    
+    }
+    
+    printf("Index = ");
+    
+    for (int i = 0; i < n; i++) {
+        printf("%d ", i);
+    }
+    
+    printf("\nArray = ");
+    
+    for (int i = 0; i < n; i++) {
+        printf("%d ", num[i]);
+    }
+    
+    return 0 ;
+}
