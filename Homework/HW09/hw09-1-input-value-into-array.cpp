@@ -43,9 +43,9 @@ int main () {
         }    
     }
 
-    printf( "Index = " ) ;
+    printf( "Index =" ) ;
     for (int i = 0; i < c-1; i++) {
-        printf("%d ", i);
+        printf(" %d", i);
     }
     
     printf("\nArray = ");
